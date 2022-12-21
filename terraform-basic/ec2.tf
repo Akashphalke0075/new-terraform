@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  ami           = "ami-0c2254f22b03751fa"
+  ami           = "ami-0b5eea76982371e91"
   instance_type = "t2.micro"
 
   tags = {
